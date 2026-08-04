@@ -108,7 +108,7 @@
             label = "Colemak DH";
             bindings = <
 &bt BT_DISC 0  &kp Q          &kp W          &kp F      &kp P        &kp B                 &kp J          &kp L  &kp U      &kp Y    &kp SEMICOLON  &bt BT_SEL 0
-&none          &kp A          &kp R          &kp S      &kp T        &kp G                 &kp M          &kp N  &kp E      &kp I    &kp O          &none
+&none          &kp A          &kp R          &kp S      &kp T        &kp G                 &kp M          &kp N  &kp E      &kp I    &kp O          &bt BT_SEL 1
 &none          &kp Z          &kp X          &kp C      &kp D        &kp V                 &kp K          &kp H  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
 &kp LGUI       &kp LG(SPACE)  &kp LC(SPACE)  &lt 2 TAB  &lt 1 ENTER             &kp SPACE  &kp BACKSPACE                                            &none
             >;
@@ -127,10 +127,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none   &kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK                 &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT                &none
-&none   &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &kp LS(LC(C))          &kp GRAVE                    &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH   &none
-&trans  &trans            &trans              &trans                &trans                                      &trans  &kp DEL                                                                                       &kp RA(F4)
+&none   &kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN              &kp F12  &kp F7  &kp F8  &kp F9  &kp PIPE              &bt BT_SEL 0
+&none   &kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK                 &kp F11  &kp F4  &kp F5  &kp F6  &kp GRAVE             &bt BT_SEL 1
+&none   &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &kp LS(LC(C))          &kp GRAVE                    &kp F10  &kp F1  &kp F2  &kp F3  &kp NON_US_BACKSLASH  &bt BT_SEL 2
+&trans  &trans            &trans              &trans                &trans                                      &trans  &kp DEL                                                &kp RA(F4)
             >;
         };
 
