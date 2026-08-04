@@ -55,8 +55,8 @@
     combos {
         compatible = "zmk,combos";
 
-        Scroll {
-            bindings = <&msc MOVE_Y(20)>;
+        ScrollDown {
+            bindings = <&msc SCRL_DOWN>;
             key-positions = <20 21>;
         };
 
@@ -98,6 +98,11 @@
         LtWin {
             bindings = <&kp LEFT_WIN>;
             key-positions = <25 26>;
+        };
+
+        ScrollUp {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <8 9>;
         };
     };
 
