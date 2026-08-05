@@ -113,30 +113,30 @@
         default_layer {
             label = "Colemak DH";
             bindings = <
-&out OUT_USB  &kp Q          &kp W          &kp F      &kp P        &kp B                     &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &out OUT_BLE
-&none         &kp A          &kp R          &kp S      &kp T        &kp G                     &kp M      &kp N  &kp E      &kp I    &kp O          &none
-&none         &kp Z          &kp X          &kp C      &kp D        &kp V                     &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
-&kp LGUI      &kp LG(SPACE)  &kp LC(SPACE)  &lt 2 TAB  &lt 1 ENTER             &kp BACKSPACE  &kp SPACE                                            &none
+&out OUT_USB  &kp Q          &kp W          &kp F            &kp P        &kp B               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &out OUT_BLE
+&none         &kp A          &kp R          &kp S            &kp T        &kp G               &kp M      &kp N  &kp E      &kp I    &kp O          &none
+&none         &kp Z          &kp X          &kp C            &kp D        &kp V               &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
+&kp LGUI      &kp LG(SPACE)  &kp LC(SPACE)  &lt 2 BACKSPACE  &lt 1 ENTER             &kp TAB  &kp SPACE                                            &none
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&none   &kp LC(HOME)  &kp HOME   &kp UP_ARROW    &kp END        &kp LC(END)                           &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT  &none
-&none   &kp LC(LEFT)  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp LC(RIGHT)                         &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT      &none
-&none   &kp PAGE_UP   &kp LG(V)  &kp LA(LC(V))   &kp LS(LC(V))  &kp PAGE_DOWN                         &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH    &none
-&trans  &trans        &trans     &trans          &kp ENTER                         &kp LC(BACKSPACE)  &trans                                                            &trans
+&none   &kp LC(HOME)  &kp HOME   &kp UP_ARROW       &kp END        &kp LC(END)                &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT  &none
+&none   &kp LC(LEFT)  &kp LEFT   &kp DOWN_ARROW     &kp RIGHT      &kp LC(RIGHT)              &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT      &none
+&none   &kp PAGE_UP   &kp LG(V)  &kp LA(LC(V))      &kp LS(LC(V))  &kp PAGE_DOWN              &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH    &none
+&trans  &trans        &trans     &kp LC(BACKSPACE)  &trans                            &trans  &trans                                                            &trans
             >;
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
-&bt BT_DISC 0  &kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN               &kp F12  &kp F7  &kp F8  &kp F9  &kp PIPE              &bt BT_SEL 0
-&none          &kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK                  &kp F11  &kp F4  &kp F5  &kp F6  &kp GRAVE             &bt BT_SEL 1
-&none          &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &kp LS(LC(C))          &kp GRAVE                     &kp F10  &kp F1  &kp F2  &kp F3  &kp NON_US_BACKSLASH  &bt BT_SEL 2
-&trans         &trans            &trans              &trans                &trans                                      &kp DEL  &trans                                                 &kp RA(F4)
+&bt BT_DISC 0  &kp LG(LEFT)      &kp LG(RIGHT)       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN              &kp F12  &kp F7  &kp F8  &kp F9  &kp PIPE              &bt BT_SEL 0
+&none          &kp LC(LS(TAB))   &kp LC(TAB)         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CAPSLOCK                 &kp F11  &kp F4  &kp F5  &kp F6  &kp GRAVE             &bt BT_SEL 1
+&none          &kp LA(UP_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(LC(C))         &kp LS(LC(C))          &kp GRAVE                    &kp F10  &kp F1  &kp F2  &kp F3  &kp NON_US_BACKSLASH  &bt BT_SEL 2
+&trans         &trans            &trans              &kp DELETE            &trans                                      &trans  &trans                                                 &kp RA(F4)
             >;
         };
 
