@@ -116,7 +116,7 @@
 &out OUT_USB  &kp Q          &kp W          &kp F            &kp P        &kp B               &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &out OUT_BLE
 &none         &kp A          &kp R          &kp S            &kp T        &kp G               &kp M      &kp N  &kp E      &kp I    &kp O          &none
 &none         &kp Z          &kp X          &kp C            &kp D        &kp V               &kp K      &kp H  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
-&kp LGUI      &kp LG(SPACE)  &kp LC(SPACE)  &lt 2 BACKSPACE  &lt 1 ENTER             &kp TAB  &kp SPACE                                            &none
+&kp LGUI      &kp LG(SPACE)  &kp LC(SPACE)  &lt 2 BACKSPACE  &lt 1 ENTER             &kp TAB  &kp SPACE                                            &kp ESCAPE
             >;
         };
 
